@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32421.90
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "pigeOnline", "pigeOnline\pigeOnline.csproj", "{18805C07-E252-4C90-B803-D72CA48BB1AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PigeOnlineWebAPI", "PigeOnlineWebAPI\PigeOnlineWebAPI.csproj", "{5B52315D-10E1-4025-9313-66BD9EACB3B6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{18805C07-E252-4C90-B803-D72CA48BB1AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18805C07-E252-4C90-B803-D72CA48BB1AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18805C07-E252-4C90-B803-D72CA48BB1AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18805C07-E252-4C90-B803-D72CA48BB1AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B52315D-10E1-4025-9313-66BD9EACB3B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B52315D-10E1-4025-9313-66BD9EACB3B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B52315D-10E1-4025-9313-66BD9EACB3B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B52315D-10E1-4025-9313-66BD9EACB3B6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BFAA0008-D28C-4DDA-8532-1B6C1502B9D4}
+	EndGlobalSection
+EndGlobal

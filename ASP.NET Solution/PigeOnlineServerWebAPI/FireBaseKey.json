@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "pigeonlineandroidapp",
+  "private_key_id": "b1d9198d41d1671f29104955794abd341aa10e31",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCdZrQyleVmgntc\nEiAmCQ4P0C2GopCsr8KBp6pkgmJPBNrbXHQLC6fMHRMEGUhCg/HWarQkCbXrk+Dt\nYq63tk6KzrbP07kM0+kop79DlLF9mzSDjDwZsalk09xzRxdjVqVqcQY+a+QrXeWU\nPbr5+fzb+KTi8gtteSTKBT6MNW2MvpXl77yctcmZC64iGVtChm79q/xdClJsWAZk\nCg2aQBtEjfxglJAun6rQ3Nqke5vaAheyRCGDVZiZeTngA+NdD1ErtNtFOd3HoWw4\niMOe1TtgbxuaMd1JrfWQip8lkPCv8j8enmEeLVWTwjE2lQ0+EtGOr7LcxfEkmnnT\nnAyr90+dAgMBAAECggEAIzOx/1I40NlDv46qM/d4dp7nX6IB2y0fwiF+YSYr2GJM\nlBy0MzgzGdoyw4rn90BNGNgaW6j0T7Bt8IlOa/XQ0Qh0KDzAuRa3oYkKpJGftGi+\nsODvHAv4x3z+Y6W1nFjne8u1SsaUbAJ+8s1vgLKhE40jS0I4vg4G5UuQ9oiIbJ5l\nW3yHed+UQb96Sgodh6N5sntiNDc/EJ3sgXuz3O2TmICx6nZNB5vW2+o8sCb+6RtA\npry5goYo27Ye9Z6fW6HbfG4Vh5clLlygvx3FBLtci63KJlN/MmZ2h3lTJoxoT9Ao\n6zpWQ4tfFeyHlrwLFyzxd2vfuiHSP0WLV4DswvikIQKBgQDKMY6/+2/JaBtk6r7H\npuWiZVD4yRqU9N+HnBMgqn/AujH8eZBJZvRytxD2HxftdeKXP5G0vkVLQ9LTgAA3\n9QthpyaI6Oi/prkONc6niSo6sxsQ15R055vei5zkW3r+VILvY20nw9xmDgGxfyT4\nAYIYU9yPHYfOLsukmlfYj/gNaQKBgQDHSanJOGgBQDneroSFJnuyB67JY1IRsL35\nGzRCoacokZXSilIPzGMPBl9dkk1kt62FwgVvzfWtWQV0uB7UZQrZoLf/FpAoHDro\n8KzwHSMGSHBAsYEahW2LHgMvPOFgVkqjLWGCU/t7DbtfVHJW0Vuq/ROIzjgRuDVz\n5ujIFWfGFQKBgFGVpY/5mKWgCE20Gr7crRPV5dI88yjflcJWS7GGmn3do4XIV1wG\n2uPe0k09Rp5eTsvQrq5LiBJSj6MfpvbtPWZt17KuqBuM3mbJd1VKl2uQEX++PPze\n55noo6nQ79Pnrd2CNO0yrp/PTweb0gLwONowHHLy63ValHkafg+4J9LhAoGAEV6K\nPc98wR8n7BCp3DEOduXUhhjx/ji5VgzY8TXFq/OEa2VC4b2epKCZjz5BIJYhuZa/\ngo8g6ornvtSNW1WzLGSlpMYCqnxLZiIT8JmZg+KsZfcSmY0njwh+no9f1VWwC6jY\n5tMLCB6aRiTGEmsM4kpMeY//swurHP7zKv0ynkECgYBDTEKYnqvH+jAQsCMaGT+k\nRxwmIT3bWYM7sNdcQVH189iyQ+/xOae/dKDqFOxxZ4x5BVwPZbGlzpRVgcN9PG0m\nc8ZPLZfC+//ArZV1QV3jUSP1MaNS3ekb3O21SXGiIImH8JLrk4rK1mG1e1juByRC\nwSeGh+ttoH//D0JP0/UeWw==\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-41gff@pigeonlineandroidapp.iam.gserviceaccount.com",
+  "client_id": "108910554101084223441",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-41gff%40pigeonlineandroidapp.iam.gserviceaccount.com"
+}

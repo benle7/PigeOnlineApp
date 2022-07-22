@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_color"
+    tools:context=".Activities.MainActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            app:srcCompat="@drawable/add_contact_im"
+            android:layout_marginBottom="50dp"/>
+
+        <TextView
+            android:id="@+id/contact_warning_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:textSize="17sp"
+            android:fontFamily="sans-serif"
+            android:textStyle="bold"
+            android:visibility="invisible"
+            android:textColor="?colorOnError"/>
+
+        <EditText
+            android:id="@+id/contact_identifier"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="25dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:hint="Contact's identifier"
+            app:layout_constraintTop_toTopOf="parent"
+            android:background="@drawable/text_login"
+            android:padding="10dp"
+            android:textColorHint="?colorSecondary"
+            android:textColor="?colorOnPrimary"
+            />
+        <EditText
+            android:id="@+id/contact_display"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="@id/contact_identifier"
+            android:padding="10dp"
+            android:hint="Contact's display name"
+            android:background="@drawable/text_login"
+            android:textColorHint="?colorSecondary"
+            android:textColor="?colorOnPrimary"
+            android:layout_marginBottom="25dp"/>
+        <EditText
+            android:id="@+id/contact_server"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="25dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:hint="Contact's server"
+            app:layout_constraintTop_toTopOf="parent"
+            android:background="@drawable/text_login"
+            android:padding="10dp"
+            android:textColorHint="?colorSecondary"
+            android:textColor="?colorOnPrimary"
+            />
+
+            <Button
+                android:id="@+id/contact_add_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="@string/add"
+                android:fontFamily="sans-serif"
+                android:textStyle="bold"
+                android:textColor="#e3e4f6"
+                android:background="@drawable/register_btn"
+                android:layout_marginBottom="50dp"
+                android:layout_marginTop="10dp"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+

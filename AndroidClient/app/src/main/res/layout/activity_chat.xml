@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_color"
+    tools:context=".Activities.ChatActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:background="?colorPrimaryVariant"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal"
+            android:layout_marginBottom="15dp">
+
+            <ImageView
+                android:id="@+id/chat_image"
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:background="@android:color/transparent"
+                android:src="@drawable/im3">
+            </ImageView>
+            <TextView
+                android:id="@+id/chat_displayName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="40dp"
+                android:text="Display Name"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:textColor="?colorOnPrimary">
+            </TextView>
+
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/chat_messagesList"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:listitem="@layout/lmessage_item"
+            android:divider="@android:color/transparent"
+            android:dividerHeight="10.0sp"
+            android:layout_marginBottom="60dp">
+        </ListView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/input_bar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:background="?colorOnPrimary"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/message_input"
+            android:layout_weight="0.7"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="?colorSecondaryVariant"
+            android:hint="Enter your message..."
+            android:textSize="20dp"
+            android:textColorHint="?colorOnSecondary"
+            android:textColor="?colorOnSecondary"
+            android:paddingLeft="10dp"
+            android:inputType="text" />
+
+        <Button
+            android:id="@+id/send_button"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/send_button_icon" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

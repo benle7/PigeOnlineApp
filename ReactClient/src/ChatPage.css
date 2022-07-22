@@ -1,0 +1,222 @@
+.container {
+    padding: 0px;
+}
+
+
+#Bar {
+    height: 100px;
+    background-color: rgb(221, 222, 243);
+    padding: 0%;
+    width: 100%;
+    margin-right: 0px;
+    padding-right: 0px;
+    float: right;
+}
+
+#leftLogo {
+    width:150px;
+    float: left;
+}
+
+#webLogo {
+    height: 100px;
+    float: right;
+    border-width: 5pt;
+    border-color: black;
+}
+
+.card-body {
+    margin: 0%;
+    padding: 0%;
+}
+
+
+#chatCard {
+    background-image: linear-gradient(rgb(0, 174, 255), rgb(80, 78, 184), rgb(19, 12, 119));
+    width : 80%;
+    height: 420px;
+    padding-left: 0;
+    padding-right:0;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    border-width: 3pt;
+    border-color: rgb(13, 13, 88);
+}
+
+
+.chat-bar {
+    margin: 0%;
+    padding: 0%;
+    background-color: rgba(19, 28, 158, 0.822);
+    height: 13%;
+    text-align: center;
+    padding-top: 2%;
+    border-width: 2pt;
+    color: white;
+    font-weight: bold;
+}
+
+#chat {
+    padding-left: 5%;
+}
+
+#chatMenu {
+    background-color: rgb(221, 222, 243);
+    padding: 0;
+}
+
+.user-bar {
+    margin: 0%;
+    padding: 0%;
+    border-width: 0.5px;
+    background-color: rgb(219, 231, 220);
+    padding-left: 0%;
+    font-weight: bold;
+}
+
+#userName {
+    padding: 3%;
+    width: 100%;
+    color: black;
+    padding-left: 0;
+    margin-left: 5%;
+}
+
+#addUser {
+    padding: 3%;
+    width:60%;
+    color: white;
+    padding-right: 0;
+    padding-left: 0;
+    border-radius: 0;
+    float: right;
+    background-color: #05728f;
+}
+
+#chatList {
+    list-style-type:none
+}
+
+
+button.user {
+    padding: 3%;
+    border-width: 0.1pc;
+    border-color: rgb(47, 47, 124);
+    width: 100%;
+    background-color: rgb(221, 222, 243);
+    color: black;
+}
+
+button.user:hover {
+    background-color: rgb(14, 21, 99);
+    color: white
+}
+
+#chatWindow {
+    background-image: linear-gradient(rgb(0, 174, 255), rgb(80, 78, 184), rgb(19, 12, 119));
+    background-attachment: fixed;
+    padding: 0%;
+    position: relative;
+}
+
+#messageRow {
+    position:absolute;
+    bottom: 0;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+
+.input-group {
+    margin: 0%;
+    padding: 0%;
+    bottom: 0;
+    height: 40px;
+}
+
+.SendButton {
+    background-color: rgb(155, 236, 155);
+    width: 60px;
+}
+
+.dropdown-menu {
+    min-width: 10px;
+    width: 100px;
+    padding: 0px;
+}
+.btn-group dropup {
+    width: 100%;
+}
+
+.img-upload > input
+{
+    display: none;
+}
+#iconImg
+{
+    cursor: pointer;
+}
+
+.vid-upload > input
+{
+    display: none;
+}
+#iconVid
+{
+    cursor: pointer;
+}
+
+.logoWrap {
+    padding-right: 0;
+}
+
+#notFound {
+    display: none;
+    text-align: left;
+}
+
+#addYourself {
+    display: none;
+    text-align: left;
+}
+
+#sucsessAdd {
+    display: none;
+}
+
+#exists {
+    display: none;
+}
+#noServer {
+    display: none;
+}
+#noDisplayName {
+    display: none;
+}
+
+#displayName {
+    margin-top:15px;
+    margin-bottom:15px;
+}
+
+.exitBut {
+    float: left;
+    width: 40px;
+    border: none;
+    background-color: transparent;
+    padding: 0;
+}
+.revBut {
+    float: left;
+    width: 40px;
+    border: none;
+    background-color: transparent;
+    padding: 0;
+    margin-top: 3%;
+    margin-left: 47%;
+}
+
+.exit {
+    padding-left: 0;
+}

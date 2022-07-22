@@ -1,0 +1,71 @@
+#cardRegister {
+    background-color: #e3e4f6;
+    width : 70%;
+    height: 620px;
+    padding-left: 30px;
+    padding-right:30px;
+    position: absolute;
+    top: 5%;
+    left: 15%;
+    border-width: 3pt;
+    border-color: rgb(13, 13, 88);
+    overflow: auto;
+    padding-bottom: 10px;
+}
+
+.container {
+    padding: 0px;
+}
+
+#loginButton {
+    width: 60%;
+    float: right;
+    border-color:rgb(11, 11, 92);
+    color: rgb(11, 11, 92);
+}
+
+#loginButton:hover {
+   background-color: rgb(11, 11, 92);
+   color: white;
+   border-color:rgb(11, 11, 92);
+}
+
+#logo {
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 30px;
+    display:block;
+    height:70px;
+}
+
+
+.form-control:focus {
+    border-color: rgb(11, 11, 92);
+    box-shadow: 0 0 0 0.25rem rgb(11, 11, 92);
+}
+
+.form-control {
+    border-color: rgb(11, 11, 92);
+}
+
+.error-divs {
+    color:red;
+}
+
+#usedMessage {
+    display: none;
+}
+
+#slogan {
+    text-align: center;
+    color:#1d3052;
+    font-weight: 750;
+    font-family:'Noto Sans';
+    font-size: 20px;
+    user-select: none;
+}
+
+#logoWrapper {
+    margin-bottom: 5px;
+}
+

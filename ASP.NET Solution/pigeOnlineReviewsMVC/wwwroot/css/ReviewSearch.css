@@ -1,0 +1,19 @@
+﻿#cardSearch {
+    background-color: #e3e4f6;
+    width: 70%;
+    height: 200px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    position: absolute;
+    top: 30%;
+    left: 15%;
+    border-width: 3pt;
+    border-color: rgb(13, 13, 88);
+    overflow: auto;
+}
+
+.searchBut {
+    width: 20%;
+}
+

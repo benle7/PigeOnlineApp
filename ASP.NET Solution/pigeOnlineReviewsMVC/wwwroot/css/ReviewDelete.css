@@ -1,0 +1,17 @@
+﻿.DeleteBut {
+    width:40%;
+}
+#DeleteReviewCard {
+    background-color: #e3e4f6;
+    width: 50%;
+    height: 280px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    border-width: 3pt;
+    border-color: rgb(13, 13, 88);
+    overflow: auto;
+}

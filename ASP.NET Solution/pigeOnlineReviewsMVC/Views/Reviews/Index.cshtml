@@ -1,0 +1,99 @@
+﻿@model IEnumerable<pigeOnline.Models.Review>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+
+<div id="showAverage">The rating average is: @ViewBag.Average</div>
+
+<form class="container-fluid" id="searchForm">
+	<div asp-validation-summary="ModelOnly" class="text-danger"></div>
+		<div class="searchBar row">
+			<input name="Search" type="text" class="form-control searchInput col-9" id="searchInputID" autoComplete="off" placeholder="Please enter your search here..." />
+			<button type="submit" class="btn btn-success searchBut col-3">Search</button>
+			<span class="text-danger"></span>
+		</div>
+</form>
+
+
+
+<div class="container" id="TableWrapper">
+	<div class="table-responsive" id="TableContent">
+	<table class="table table-fixed table-responsive" id="ReviewTable">
+			<thead>
+				<tr>
+					<th scope="col" class="col-md-1 TextCol">
+						Name
+					</th>
+					<th scope="col" class="col-md-1 TextCol">
+						Rating
+					</th>
+					<th scope="col" class="col-md-6 TextCol">
+						Review
+					</th>
+					<th scope="col" class="col-md-2 TextCol">
+						Time and date
+					</th>
+					<th scope="col" class="col-md-2 TextCol">
+                        Options
+                    </th>
+				</tr>
+			</thead>
+			<tbody id="tableBody">
+				@foreach (var item in Model)
+				{
+
+					<tr>
+						<th scope="row" class="col-1 TextCol">
+							@Html.DisplayFor(modelItem => item.Name)
+						</th>
+						<th class="col-md-1 TextCol">
+							@Html.DisplayFor(modelItem => item.RateNumber)
+						</th>
+						<th class="col-md-6 TextCol">
+							@Html.DisplayFor(modelItem => item.Text)
+						</th>
+						<th class="col-md-2 TextCol">
+							@Html.DisplayFor(modelItem => item.TimeAndDate)
+						</th>
+						<th class="col-md-2 TextCol">
+							<a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+							<a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+							<a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+						</th>
+					</tr>
+				}
+			</tbody>
+	</table>
+	</div>
+</div>
+
+<a asp-action="Create" class="btn btn-primary" id="createBtn">Create</a>
+<a asp-action="index" class="btn btn-primary" id="homeBtn">Home</a>
+
+
+@section Scripts {
+<script type="text/html" id="template">
+    <tr>
+        <th scope="row" class="col-1 TextCol">
+            {name}
+        </th>
+        <th class="col-md-1 TextCol">
+            {rateNumber}
+        </th>
+        <th class="col-md-6 TextCol">
+            {text}
+        </th>
+        <th class="col-md-2 TextCol">
+            {timeAndDate}
+        </th>
+        <th class="col-md-2 TextCol">
+            <a asp-action="Edit" asp-route-id="{id}">Edit</a> |
+            <a asp-action="Details" asp-route-id="{id}">Details</a> |
+            <a asp-action="Delete" asp-route-id="{id}">Delete</a>
+        </th>
+    </tr>
+</script>
+<script src="~/js/searchScript.js"></script>
+}

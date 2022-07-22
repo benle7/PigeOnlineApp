@@ -1,0 +1,57 @@
+﻿@model pigeOnline.Models.Review
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+
+    <form asp-action="Create" class="container-fluid">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <div id="cardRegister" class="card row">
+            <div class="card-body">
+
+        <div class="mb-3 row">
+          <label asp-for="Name" class="col-sm-6 col-lg-2">Name</label>
+          <div class="col-10">
+            <input asp-for="Name" name="Name" type="text" class="form-control" autoComplete="off" placeholder="Please enter your name here..."/>
+            <span asp-validation-for="Name" class="text-danger"></span>
+          </div>
+        </div>
+        <div class="mb-3 row">
+          <label asp-for="RateNumber" class="col-sm-6 col-lg-2">Rate number</label>
+          <div class="col-10">
+            <input asp-for="RateNumber" name="RateNumber" type="number" class="form-control" autoComplete="off" placeholder="Please enter a number between 1 to 5."/>
+            <span asp-validation-for="RateNumber" class="text-danger"></span>
+          </div>
+        </div>
+        <div class="mb-3 row">
+          <label asp-for="Text" class="col-sm-6 col-lg-2">Text</label>
+          <div class="col-10">
+            <textarea asp-for="Text" name="Text" type="text" class="form-control" row="3" placeholder="Please enter your review here..." auto-complete="off"></textarea>
+            <span asp-validation-for="Text" class="text-danger"></span>
+          </div>
+        </div>
+
+        
+        <div class="container">
+          <div class="row">
+            <div class="col-5">
+     
+            </div>
+            <div class="col-7">
+              <button type="submit" id="loginButton" class="btn btn-outline-primary">Submit</button>
+                <a asp-action="Index">Back to List</a>
+                
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    </form>
+
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

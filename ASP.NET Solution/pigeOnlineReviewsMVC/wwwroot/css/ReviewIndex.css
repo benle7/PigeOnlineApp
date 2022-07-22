@@ -1,0 +1,62 @@
+﻿
+.table-responsive {
+    max-height: 410px;
+    
+}
+
+#TableWrapper {
+
+    background-color: #e3e4f6;
+    border-style: solid;
+    border-width: 3pt;
+    border-color: rgb(13, 13, 88);
+    border-radius: 4px;
+    overflow: hidden;
+    
+}
+
+.TextCol {
+    text-align: center;
+    word-break: break-all;
+}
+
+#showAverage {
+    text-align: center;
+    font-size: 40px;
+    color: #e3e4f6;
+    font-family: var(--bs-body-font-family);
+    margin-bottom:10px;
+}
+
+#createBtn {
+    margin-top: 10px;
+    background-color: rgb(13, 13, 88);
+}
+
+#createBtn:hover {
+    background-color: rgb(11, 11, 92);
+    color: white;
+    border-color: rgb(11, 11, 92);
+}
+
+#homeBtn {
+    margin-top: 10px;
+    background-color: rgb(13, 13, 88);
+}
+
+#homeBtn:hover {
+    background-color: rgb(11, 11, 92);
+    color: white;
+    border-color: rgb(11, 11, 92);
+}
+
+
+.searchInput {
+    width:50%;
+    left:25%;
+    margin-left:25%;
+}
+.searchBar {
+    margin-bottom:10px;
+    margin-right:17%
+}

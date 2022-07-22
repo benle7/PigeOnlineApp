@@ -1,0 +1,55 @@
+﻿@model pigeOnline.Models.Review
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+
+<form class="container-fluid">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <div id="DetailsReviewCard" class="card row">
+            <div class="card-body">
+
+       <dl class="row">
+        <dt class = "col-sm-3">
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+        <dd class = "col-sm-9">
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+        <dt class = "col-sm-3">
+            @Html.DisplayNameFor(model => model.RateNumber)
+        </dt>
+        <dd class = "col-sm-9">
+            @Html.DisplayFor(model => model.RateNumber)
+        </dd>
+        <dt class = "col-sm-3">
+            @Html.DisplayNameFor(model => model.Text)
+        </dt>
+        <dd class = "col-sm-9">
+            @Html.DisplayFor(model => model.Text)
+        </dd>
+        <dt class = "col-sm-3">
+            @Html.DisplayNameFor(model => model.TimeAndDate)
+        </dt>
+        <dd class = "col-sm-9">
+            @Html.DisplayFor(model => model.TimeAndDate)
+        </dd>
+    </dl>
+
+        
+        <div class="container">
+          <div class="row">
+            <div class="col-5">
+     
+            </div>
+            <div class="col-7">
+                <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
+                <a asp-action="Index">Back to List</a>           
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    </form>

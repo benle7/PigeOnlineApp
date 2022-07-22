@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="start_color">#0B0B5C</color>
+    <color name="end_color">#7B7BAC</color>
+    <color name="envelope_color">#169E62</color>
+    <color name="background_logo_color">#E3E4F6</color>
+    <color name="warning_red">#FF0F0F</color>
+    <color name="lborderM">#39E0F0</color>
+    <color name="rborderM">#12FD30</color>
+    <color name="backM">#E3E4F6</color>
+    <color name="txtM">#FF000000</color>
+
+    <color name="Nstart_color">#03034E</color>
+    <color name="Nend_color">#0404A3</color>
+    <color name="Nenvelope_color">#C3B328</color>
+    <color name="Nbackground_logo_color">#E3E4F6</color>
+    <color name="Nwarning_red">#B60707</color>
+    <color name="NlborderM">#E8D744</color>
+    <color name="NrborderM">#B80615</color>
+    <color name="NbackM">#313579</color>
+    <color name="NtxtM">#E3E4F6</color>
+</resources>

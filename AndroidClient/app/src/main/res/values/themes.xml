@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.PigeOnlineAndroidApp" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimaryVariant">@color/start_color</item>
+        <item name="colorPrimary">@color/end_color</item>
+
+        <item name="colorOnPrimary">@color/background_logo_color</item>
+        <item name="colorSecondary">@color/envelope_color</item>
+        <item name="colorOnError">@color/warning_red</item>
+
+        <item name="colorSecondaryVariant">@color/white</item>
+        <item name="colorOnSecondary">@color/black</item>
+
+        <item name="colorOnSurface">@color/backM</item>
+        <item name="colorOnBackground">@color/rborderM</item>
+        <item name="colorContainer">@color/lborderM</item>
+        <item name="colorAccent">@color/txtM</item>
+
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+    </style>
+</resources>

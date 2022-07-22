@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">PigeOnlineAndroidApp</string>
+    <string name="moto">Communicate like the old days.Nowadays.</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="add">Add</string>
+    <string name="warning">Invalid username or password.</string>
+    <string name="BaseUrl">http://10.0.2.2:5010</string>
+</resources>

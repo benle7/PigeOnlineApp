@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.PigeOnlineAndroidApp" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="colorPrimaryVariant">@color/Nstart_color</item>
+        <item name="colorPrimary">@color/Nend_color</item>
+
+        <item name="colorOnPrimary">@color/Nbackground_logo_color</item>
+        <item name="colorSecondary">@color/Nenvelope_color</item>
+        <item name="colorOnError">@color/Nwarning_red</item>
+
+        <item name="colorSecondaryVariant">@color/white</item>
+        <item name="colorOnSecondary">@color/black</item>
+
+        <item name="colorOnSurface">@color/NbackM</item>
+        <item name="colorOnBackground">@color/NrborderM</item>
+        <item name="colorContainer">@color/NlborderM</item>
+        <item name="colorAccent">@color/NtxtM</item>
+
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+    </style>
+</resources>

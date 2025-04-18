@@ -1,5 +1,4 @@
 # PigeOnlineApp
-Ben Levi ID : 318811304 , Eliran Eiluz ID : 313268146
 
 Chats Application - The server (ASP.NET) communicates with a Mobile (Android) and Web (REACT\HTML\CSS\JS\JQUERY) clients. This project uses a variety of technologies and architectures, for example : MVC, MVVM, Entity Framework, SignalR, Room, Retrofit, Firebase and more...
 
